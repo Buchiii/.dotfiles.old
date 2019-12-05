@@ -66,6 +66,9 @@ execute pathogen#infect()
 	autocmd FileType tex inoremap ,ul \begin{itemize}<Enter><Enter>\end{itemize}<Esc>3kA\item<Space>
 
 " bib shortcuts
+        autocmd FileType bib inoremap ,mi @misc{,<enter>author="",<enter>title="",<enter>year="",<enter>url="",<enter>note="Accessed on",<enter>organization="",<enter>}
+
+" bib shortcuts
 " prolly not needed because of getbiber script
 
 " Ensure files are read as what I want:
